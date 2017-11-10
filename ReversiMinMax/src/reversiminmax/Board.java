@@ -70,7 +70,7 @@ public class Board {
             x += smX;
             y += smY;
         }
-        return flipped;
+        return new LinkedList<>();
     }
 
     public boolean isValid(byte color, int i, int j, int smX, int smY) {
